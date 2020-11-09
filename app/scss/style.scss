@@ -6,11 +6,11 @@
 .header__inner {
     display: flex;
 }
-.header__left-logo {
+.header__logo-inner {
     padding: 75px 140px 0 155px;
 }
 
-.header__center-bg {
+.header__top-bg {
     height: 768px;
     width: 690px;
     background-size: cover;
@@ -18,7 +18,7 @@
     position: relative;
 }
 
-.header__center_title {
+.header__top-title {
     position: absolute;
     top: 508px;
     left: 160px;
@@ -36,19 +36,19 @@ span {
     padding: 0 15px 0 15px;
 }
 
-.header__right {
+.header__menu {
     background-color: #415167;
     width: 270px;
     height: 768px;
 }
 
-.header__right-shop {
+.header__menu-shop {
     padding: 86px 0 0 56px;
     position: relative;
    
 }
 
-.header__right-circle {
+.header__menu-circle {
     position: absolute;
     width: 20px;
     height: 20px;
