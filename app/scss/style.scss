@@ -1,0 +1,85 @@
+@import "vars";
+@import "libs";
+@import "fonts";
+@import "global";
+
+.header__inner {
+    display: flex;
+}
+.header__left-logo {
+    padding: 75px 140px 0 155px;
+}
+
+.header__center-bg {
+    height: 768px;
+    width: 690px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.header__center_title {
+    position: absolute;
+    top: 508px;
+    left: 210px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 70px;
+    max-width: 470px;
+    color: #415167;
+}
+
+span {
+    background: #C7A17A;
+    color: #fff;
+}
+
+.header__right {
+    background-color: #415167;
+    width: 270px;
+    height: 768px;
+}
+
+.header__right-shop {
+    padding: 86px 0 0 56px;
+    position: relative;
+   
+}
+
+.header__right-circle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #C7A17A;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+    top: 75px;
+    right: 170px;
+}
+
+.menu__tilte {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #EDF0F5;
+    margin-bottom: 30px;
+    padding: 120px 65px 0 55px;
+}
+
+.menu__list {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0 65px 0 55px;
+}
+
+.menu__list-item {
+    margin-bottom: 25px;
+}
+
+
+
+@import "media";

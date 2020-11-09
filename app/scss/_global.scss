@@ -1,0 +1,46 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+ ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #EDF0F5;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.1875px;
+    color: #151D28;
+}
+h1 {
+    margin: 0;
+}
+
+.container {
+    max-width: 1375px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
