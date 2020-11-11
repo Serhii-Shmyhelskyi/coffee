@@ -5,14 +5,19 @@
 
 .header__inner {
     display: flex;
+    margin-bottom: 85px;
 }
+
 .header__logo-inner {
     padding: 75px 140px 0 155px;
 }
 
+.header__top {
+    width: 53%;
+}
+
 .header__top-bg {
     height: 768px;
-    width: 690px;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -30,7 +35,7 @@
     color: #415167;
 }
 
-span {
+.header__top-color {
     background: #C7A17A;
     color: #fff;
     padding: 0 15px 0 15px;
@@ -38,14 +43,13 @@ span {
 
 .header__menu {
     background-color: #415167;
-    width: 270px;
+    min-width: 270px;
     height: 768px;
 }
 
 .header__menu-shop {
     padding: 86px 0 0 56px;
-    position: relative;
-   
+    position: relative; 
 }
 
 .header__menu-circle {
@@ -59,6 +63,11 @@ span {
     line-height: 20px;
     top: 75px;
     right: 170px;
+    display: none;
+}
+
+.visible {
+    display: block;
 }
 
 .menu__tilte {
@@ -67,20 +76,93 @@ span {
     line-height: 22px;
     color: #EDF0F5;
     margin-bottom: 30px;
-    padding: 120px 65px 0 55px;
+    margin-left: 56px;
+    width: 140px;
+    padding-top: 120px;
 }
 
 .menu__list {
     font-weight: 300;
     font-size: 16px;
     line-height: 24px;
-    padding: 0 65px 0 55px;
+    margin-left: 55px;
+    width: 140px;
 }
 
 .menu__list-item {
     margin-bottom: 25px;
 }
 
+.build__inner {
+    max-width: 1125px;
+    padding: 0 10px;
+    margin: 0 auto 125px;
+}
 
+.build__inner-title {
+    margin-bottom: 73px;
+}
+
+.build__inner-boxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.build__inner-box {
+    width: 226px;
+    text-align: center;
+}
+
+.build__inner-box--title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;    
+}
+
+.favorite__bg-left {
+    width: 384px;
+    height: 894px;
+    background-color: #415167;
+    position: absolute;
+}
+
+.favorite__inner-subtitle {
+    padding-top: 90px;
+}
+
+.favorite__inner-title {
+    margin-bottom: 73px;
+}
+
+.favorite__slider-images {
+    z-index: 2;
+}
+
+.favorite__slider {
+    max-width: 1150px;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+.favorite__slider-boxes {
+    display: flex;
+    max-width: 560px;
+    height: 256px;
+    margin-bottom: 32px;
+}
+
+.favorite__slider-box {
+    padding: 0 44px;
+    background-color: #fff;
+    z-index: 2;
+    width: 100%;
+   
+}
+
+.favorite__slider-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
 @import "media";
