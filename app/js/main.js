@@ -13,7 +13,10 @@ list.forEach((elem) => {
 
 $(function () {
 
-
+    $('.favorite__slider-inner').slick({
+        prevArrow: false,
+        nextArrow: '<img class ="slider-arrows__right" src="images/right-arrow.svg" alt=""></img>',
+    });
 
 
 })
