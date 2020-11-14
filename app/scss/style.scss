@@ -227,6 +227,10 @@
     }
 }
 
+.slick-slide:not(.slick-current) { 
+    opacity:.3; 
+}
+
 .giftset {
     position: relative;
 }
@@ -348,9 +352,8 @@
 
 .giftset__slider-nav {
     position: absolute;
-    left: 970px;
+    left: 1181px;
     top: 165px;
-    text-align: center;
 }
 
 .slider__nav-number {
@@ -367,7 +370,7 @@
 }
 
 .slider__nav-number-text {
-    padding: 63px 0 57px 0;
+    padding: 63px 0 57px 34px;
 }
 
 

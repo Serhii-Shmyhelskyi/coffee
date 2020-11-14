@@ -40,7 +40,6 @@ $(function () {
         vertical: true,
         arrows: false,
         asNavFor: '.giftset__slider-nav'
-
     });
     $('.giftset__slider-nav').slick({
         slidesToShow: 3,
