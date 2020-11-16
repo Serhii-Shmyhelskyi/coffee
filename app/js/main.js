@@ -18,22 +18,6 @@ $(function () {
         nextArrow: '<img class ="slider-arrows__right" src="images/right-arrow.svg" alt=""></img>',
     });
 
-    // $('.giftset__slider').slick({
-    //     vertical: true,
-    //     slidesToShow: 1,
-    //     slidesToScroll: 1,
-    //     arrows: false,
-    //     asNavFor: '.giftset__slider-nav'
-    // });
-
-    // $('.giftset__slider-nav').slick({
-    //     slidesToShow: 3,
-    //     slidesToScroll: 1,
-    //     focusOnSelect: true,
-    //     asNavFor: '.giftset__slider'
-    // });
-
-
     $('.giftset__slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
