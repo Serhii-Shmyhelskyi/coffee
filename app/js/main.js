@@ -35,7 +35,7 @@ $(function () {
         focusOnSelect: true,
         responsive: [
             {
-                breakpoint: 1256,
+                breakpoint: 1281,
                 settings: {
                     vertical: false,
                 }
