@@ -14,6 +14,7 @@
 
 .header__top {
     width: 53%;
+    position: relative;
 }
 
 .header__top-bg {
@@ -26,7 +27,7 @@
 .header__top-title {
     position: absolute;
     top: 508px;
-    left: 160px;
+    left: -230px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     font-size: 54px;
@@ -377,6 +378,7 @@
 
 .combo {
     margin-bottom: 128px;
+    position: relative;
 }
 
 .combo__bg-right {
