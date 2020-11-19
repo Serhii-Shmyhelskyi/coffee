@@ -368,7 +368,10 @@
 }
 
 .slider__nav-number-text {
-    padding: 63px 0 57px 34px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50%;
+    transform: translateY(10px);
 }
 
 .combo {

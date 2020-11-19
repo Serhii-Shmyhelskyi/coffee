@@ -32,7 +32,15 @@ $(function () {
         dots: true,
         vertical: true,
         centerMode: true,
-        focusOnSelect: true
+        focusOnSelect: true,
+        responsive: [
+            {
+                breakpoint: 1256,
+                settings: {
+                    vertical: false,
+                }
+            }
+        ]
     });
 
 })
