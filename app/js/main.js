@@ -13,9 +13,36 @@ list.forEach((elem) => {
 
 $(function () {
 
+    $('.menu__btn').on('click', function () {
+        $('.header__menu').slideToggle();
+    });
+
     $('.favorite__slider-inner').slick({
         prevArrow: false,
         nextArrow: '<img class ="slider-arrows__right" src="images/right-arrow.svg" alt=""></img>',
+    });
+
+    $('.favorite__slider-inner--2').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        prevArrow: false,
+        nextArrow: '<img class ="slider-arrows__right" src="images/right-arrow.svg" alt=""></img>',
+        responsive: [
+            {
+                breakpoint: 960,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 750,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            },
+        ]
     });
 
     $('.giftset__slider').slick({
