@@ -290,7 +290,7 @@
         line-height: 50px;
     }
     .giftset__slider-nav {
-        padding: 0 130px;
+        width: 500px;
     }
 }
 
@@ -374,7 +374,7 @@
         line-height: 45px;
     }
     .giftset__slider-nav {
-        padding: 0 150px;
+        width: 400px;
     }
 }
 
@@ -427,11 +427,7 @@
     .slider__nav-number {
         
         max-width: 50px;
-    }
-    .giftset__slider-nav {
-        padding: 0 200px;
-    }
-     
+    }   
 }
 
 @media (min-width: 660px) {
